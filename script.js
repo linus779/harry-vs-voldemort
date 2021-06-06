@@ -61,7 +61,7 @@ setInterval(() => {
         setTimeout(() => {
             aniDur = parseFloat(window.getComputedStyle(voldemort, null).getPropertyValue('animation-duration'));
             newDur = aniDur - 0.1;
-            console.log('New animation duration', newDur)
+            //console.log('New animation duration', newDur)
             voldemort.style.animationDuration = newDur + 's';
         }, 500);
 
